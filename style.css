@@ -1,0 +1,247 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+header{
+    width: 100%;
+    
+}
+nav {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-right: 50px;
+}
+.icones{
+    height: 4vh;
+}
+.megasale{
+    width: 100%;
+}
+div{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-left: 55px;
+    padding-right: 50px ;
+}
+main{
+    height: 105vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Elixir{
+    height: 60vh;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+}
+section{
+
+    display: flex;
+    justify-content:space-around;
+}
+
+span{
+    color:#5CA720;
+    font-weight: bold;
+
+}
+button{
+    width: 8vw;
+    height:4vh;
+    background-color: #5CA720;
+    color:white;
+    border:none;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: #512200BD;
+}  
+
+figure:hover{
+    background-color: #5CA720;
+    height:78%;
+
+}
+.imgem:hover{
+    opacity: 35%
+}
+footer{
+    height: 17vw;
+     padding-top: 20px;
+     
+
+}
+.Informa{
+    
+    height:15vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+form{
+    padding-top: 18px;
+}
+.end{
+    height: 9vw;
+    display: flex;
+    justify-content: space-between;
+    border: solid rgb(112, 108, 108) 1px;
+}
+.icones-final{
+    display: flex;
+    justify-content: space-between;
+    padding-top:25px;
+}
+
+.redes{
+    width: 15vw;
+    height: 7vh;
+ display: flex;
+ justify-content: space-around;
+}
+.cartoes{
+    width: 29vw;
+    height: 7vh;
+ display: flex;
+ justify-content: space-around;
+}    
+@media(max-width: 500px ){
+        
+        header{
+            border: solid 1px;
+            width: 100%;
+            
+        }
+        nav {
+            height: 8vh;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        .icones{
+            height: 2vh;
+        }
+        .megasale{
+            width:100%;
+        }
+        div{
+           
+            display: flex;
+            
+        }
+        main{
+            height: 750vw;
+            
+            display:flex;
+            flex-direction: column;
+            
+        }
+    
+        .Elixir{
+            
+            height: 40vh;
+           
+        }
+        section{
+            height: 150vh;
+            
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .imgem{
+            border: "";
+            
+        }
+        
+        span{
+            height:5px;
+            color:#5CA720;
+            font-weight: bold;
+        
+        }
+        button{
+            width: 20vw;
+            height:3vh;
+            background-color: #5CA720;
+            color:white;
+            border:none;
+            border-radius: 8px;
+        }
+        button:hover{
+            background-color: #512200BD;
+        }  
+        
+        figure:hover{
+            background-color: #5CA720;
+            height:78%;
+        
+        }
+        .imgem:hover{
+            opacity: 35%
+        }
+        footer{
+           
+            height: 77vw;
+             padding-top: 20px;
+             
+        
+        }
+        .Informa{
+            width: 85%;
+            height:14vh;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding-right: 105px;
+        }
+        form{
+            zoom: 1,5;
+           
+        }
+        .end{
+           
+            height: 45vw;
+                    
+
+            
+        }
+        .icones-final{
+            
+            height: 15vh;
+            display: flex;
+            padding-bottom: 50px;
+         
+        }
+        
+        .redes{
+            border: solid 1px;
+            width: 40vw;
+            
+        
+           
+        }
+        .redes img{
+            height: 3vh;
+         
+           
+        }
+        .cartoes{
+            
+            width: 49vw;
+           
+            
+         
+        } 
+        .cartoes img{
+            height: 3vh;
+            padding-left: 10px;
+        }
+    }
