@@ -112,10 +112,10 @@ form{
  display: flex;
  justify-content: space-around;
 }    
-@media(max-width: 500px ){
-        
+@media(max-width: 390px ){
+    
         header{
-            border: solid 1px;
+
             width: 100%;
             
         }
@@ -137,8 +137,8 @@ form{
             
         }
         main{
-            height: 750vw;
-            
+            height: 970vw;
+           
             display:flex;
             flex-direction: column;
             
@@ -146,17 +146,18 @@ form{
     
         .Elixir{
             
-            height: 40vh;
+            height: 30vh;
            
         }
         section{
-            height: 150vh;
-            
+            height: 180vh;
+        
             display: flex;
             align-items: center;
             flex-direction: column;
         }
         .imgem{
+    
             border: "";
             
         }
@@ -168,8 +169,8 @@ form{
         
         }
         button{
-            width: 20vw;
-            height:3vh;
+            width: 15vw;
+            height:4vh;
             background-color: #5CA720;
             color:white;
             border:none;
@@ -181,7 +182,7 @@ form{
         
         figure:hover{
             background-color: #5CA720;
-            height:78%;
+            height:120%;
         
         }
         .imgem:hover{
@@ -189,8 +190,8 @@ form{
         }
         footer{
            
-            height: 77vw;
-             padding-top: 20px;
+            height: 70vw;
+             padding-top: 50px;
              
         
         }
@@ -222,7 +223,7 @@ form{
         }
         
         .redes{
-            border: solid 1px;
+           
             width: 40vw;
             
         
